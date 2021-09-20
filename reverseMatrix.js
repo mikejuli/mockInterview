@@ -1,9 +1,6 @@
 
 var reverseArr = function (arr) {
 
-  arrModifided = new Array(arr.length).fill(0).map(x=>x = new Array (arr.length).fill(0));
-
-
   var tempArr  = [];
 
   for (var c = 0; c<(arr.length*2)-1; c++){
@@ -26,7 +23,6 @@ var reverseArr = function (arr) {
         count++;
       }
 
-      console.log(tempArr);
       tempArr = [];
 
     } else {
@@ -51,7 +47,6 @@ var reverseArr = function (arr) {
          count++;
        }
 
-      console.log(tempArr);
       tempArr = [];
 
 
